@@ -16,8 +16,8 @@ theme:
   palette:
     primary: "blue"
     accent: "red"
-  logo: "img/icon.png"
-  favicon: "img/favicon.ico"
+  logo: "img/ktanikun.jpg"
+  favicon: "img/ktanikun.ico"
 extra:
   social:
     - icon: fontawesome/brands/github
