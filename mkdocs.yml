@@ -11,11 +11,11 @@ theme:
   feature: 
   - navigation.tabs
   font:
-    text: "Noto Sans JP"
+    text: "Zen Kaku Gothic New" 
     code: "Consolas"
   palette:
-    primary: "blue"
-    accent: "red"
+    primary: "light blue"
+    accent: "pink"
   logo: "img/ktanikun.jpg"
   favicon: "img/ktanikun.ico"
 extra:
