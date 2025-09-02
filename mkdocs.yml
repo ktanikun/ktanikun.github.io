@@ -1,0 +1,79 @@
+site_name: ktanikun
+site_url: https://ktanikun.github.io
+repo_url: https://github.com/ktanikun/ktanikun.github.io
+repo_name: ktanikun/ktanikun.github.io
+site_author: ktanikun
+site_description: >-
+  Homepage
+theme:
+  name: material
+  language: ja
+  feature: 
+  - navigation.tabs
+  font:
+    text: "Noto Sans JP"
+    code: "Consolas"
+  palette:
+    primary: "blue"
+    accent: "red"
+  logo: "img/icon.png"
+  favicon: "img/favicon.ico"
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ktanikun/
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/anemame2021
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - footnotes
+  - def_list
+  - attr_list
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+    
+extra_javascript: 
+  - "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  - "js/extra.js"
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+nav:
+  - Home: index.md
+plugins:
+  - search
+edit_uri: edit/main/docs/
+nav:
+  - Home: index.md
