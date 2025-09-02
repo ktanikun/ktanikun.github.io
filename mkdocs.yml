@@ -9,11 +9,14 @@ theme:
   name: material
   language: ja
   feature: 
-  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - navigation.instant
   font:
     text: "Zen Kaku Gothic New" 
-    code: "Consolas"
+    code: "Fira Code"
   palette:
+    scheme: "default"
     primary: "light blue"
     accent: "pink"
   logo: "img/ktanikun.jpg"
@@ -47,8 +50,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      # user: squidfunk
+      # repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -70,6 +73,8 @@ extra_css:
     - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
     - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    - "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500&family=Fira+Code&display=swap"
+    - "css/custom.css"
 nav:
   - Home: index.md
 plugins:
