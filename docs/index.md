@@ -28,6 +28,7 @@
 
 ### tex template
 
+olyexam形式のtemplate.
 
 
 ### revised/translated contests
