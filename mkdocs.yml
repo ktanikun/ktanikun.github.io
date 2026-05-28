@@ -5,15 +5,16 @@ repo_name: ktanikun/ktanikun.github.io
 site_author: ktanikun
 site_description: >-
   Homepage
+
 theme:
   name: material
   language: ja
-  feature: 
-  - navigation.sections
-  - navigation.top
-  - navigation.instant
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
   font:
-    text: "Zen Kaku Gothic New" 
+    text: "Zen Kaku Gothic New"
     code: "Fira Code"
   palette:
     scheme: "default"
@@ -21,18 +22,19 @@ theme:
     accent: "pink"
   logo: "img/ktanikun.jpg"
   favicon: "img/ktanikun.ico"
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ktanikun/
     - icon: fontawesome/brands/twitter
       link: https://x.com/anemame2021
+
 markdown_extensions:
   - toc:
       permalink: True
   - admonition
   - codehilite
-  - pymdownx.superfences
   - footnotes
   - def_list
   - attr_list
@@ -43,8 +45,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -65,20 +67,19 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-    
-extra_javascript: 
-  - "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
+extra_javascript:
   - "js/extra.js"
+  - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
 extra_css:
-    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
-    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
-    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
-    - "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500&family=Fira+Code&display=swap"
-    - "css/custom.css"
-nav:
-  - Home: index.md
+  - "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Fira+Code&display=swap"
+  - "css/custom.css"
+
 plugins:
   - search
+
 edit_uri: edit/main/docs/
+
 nav:
   - Home: index.md

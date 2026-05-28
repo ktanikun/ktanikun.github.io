@@ -1,3 +1,22 @@
-site
-.vscode
-.log
+site/
+.venv/
+.vscode/
+tex/
+
+.DS_Store
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv

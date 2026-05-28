@@ -16,16 +16,22 @@
 
 日本の数学オリンピックにも挑戦していました。
 
- - japan mathmatics olympiad (JMO) 2* selected as TST memmber  
+ - japan mathmatics olympiad (JMO) 3* selected as TST memmber  
 
-
+東大入試
 
 
 
 
 ## 資料 / handouts
 
-[pdf](/pdfs/test.pdf)
+### Physics Olympiad Advice
+
+ - v0.1 [JPN](pdfs/handouts/physics_olympiad_advice_v0.1_jpn.pdf) / [ENG](pdfs/handouts/physics_olympiad_advice_v0.1_eng.pdf) / [ESP](pdfs/handouts/physics_olympiad_advice_v0.1_esp.pdf)
+
+### Experiment drills
+
+ - Experiment Drill 01: EuPhO 2024 E1 [JPN](pdfs/handouts/experiment_drill_01_eupho2024_jpn.pdf) / [ENG](pdfs/handouts/experiment_drill_01_eupho2024_eng.pdf)
 
 ### tex template
 

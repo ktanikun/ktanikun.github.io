@@ -1,15 +1,13 @@
 window.MathJax = {
-  tex2jax: {
+  tex: {
     inlineMath: [['$','$'], ['\\(','\\)']],
     displayMath: [['$$','$$'], ['\\[','\\]']],
     processEscapes: true
-  },
-  "HTML-CSS": {
-    availableFonts: [],
-    preferredFont: null,
-    webFont: "STIX-Web"
   }
 };
+
 document$.subscribe(() => {
-  MathJax.typesetPromise()
-})
+  if (window.MathJax?.typesetPromise) {
+    window.MathJax.typesetPromise();
+  }
+});
