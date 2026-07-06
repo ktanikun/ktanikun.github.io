@@ -25,6 +25,10 @@
 
 ## 資料 / handouts
 
+### 勉強ノート
+
+ - 0706: $AA^*=A^*A$ 対角化可能 [PDF](pdfs/study/20260706-normal-unitary-diagonalization.pdf)
+
 ### Physics Olympiad Advice
 
  - v0.1 [JPN](pdfs/handouts/physics_olympiad_advice_v0.1_jpn.pdf) / [ENG](pdfs/handouts/physics_olympiad_advice_v0.1_eng.pdf) / [ESP](pdfs/handouts/physics_olympiad_advice_v0.1_esp.pdf)
