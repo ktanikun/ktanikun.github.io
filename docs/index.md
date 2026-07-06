@@ -23,11 +23,11 @@
 
 
 
+## ノート集
+
+ - [20260706\_$AA^*=A^*A$なら対角化可能](pdfs/study/20260706-normal-unitary-diagonalization.pdf)
+
 ## 資料 / handouts
-
-### 勉強ノート
-
- - 0706: $AA^*=A^*A$ 対角化可能 [PDF](pdfs/study/20260706-normal-unitary-diagonalization.pdf)
 
 ### Physics Olympiad Advice
 
