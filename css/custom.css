@@ -1,0 +1,36 @@
+/* 見出しをスタイリッシュに */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #333; /* 濃いグレーでシンプルに */
+}
+
+/* 本文の読みやすさを強化 */
+.md-typeset {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* コードブロックを爽やかに */
+.md-typeset pre {
+  border-radius: 6px;
+  background: #f5faff;  /* 薄いブルー背景 */
+  color: #222;
+  padding: 1em;
+  font-family: "Fira Code", monospace;
+}
+
+
+
+/* リンク色をピンク寄りに */
+a {
+  color: #c2185b;
+  /* Material Pink */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
