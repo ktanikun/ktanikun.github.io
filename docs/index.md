@@ -25,7 +25,9 @@
 
 ## ノート集
 
+ - [20260710\_強制振動を行列指数関数で解く](pdfs/study/20260710-forced-oscillation-matrix-exponential.pdf)
  - [20260706\_$AA^*=A^*A$なら対角化可能](pdfs/study/20260706-normal-unitary-diagonalization.pdf)
+ - [20260704\_剛体運動から角速度ベクトルを定める](pdfs/study/20260704-rigid-body-angular-velocity.pdf)
 
 ## 資料 / handouts
 
